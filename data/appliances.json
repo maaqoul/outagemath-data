@@ -1,0 +1,980 @@
+[
+  {
+    "slug": "refrigerator",
+    "name": "Refrigerator (full-size, ENERGY STAR)",
+    "category": "kitchen",
+    "runningW": 150,
+    "runningWMin": 130,
+    "runningWMax": 200,
+    "startingW": 1200,
+    "cycling": true,
+    "avgW": 58,
+    "dailyKWh": 1.4,
+    "typicalHoursPerDay": 24,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "~510 kWh/yr, between ENERGY STAR model medians (362 top-freezer, 553 bottom, 640 side-by-side); compressor cycles",
+    "sources": [
+      "https://data.energystar.gov/resource/p5st-her9.json",
+      "https://www.energystar.gov/sites/default/files/asset/document/Appliance_and_Recycling_Quick_Start_Guide.pdf",
+      "https://powerequipment.honda.com/generators/generator-wattage-estimation-guide",
+      "https://www.championpowerequipment.com/generator-wattage-chart/"
+    ]
+  },
+  {
+    "slug": "refrigerator-older",
+    "name": "Refrigerator (older full-size, 1990s–early 2000s)",
+    "category": "kitchen",
+    "runningW": 250,
+    "runningWMin": 150,
+    "runningWMax": 400,
+    "startingW": 1600,
+    "cycling": true,
+    "avgW": 104,
+    "dailyKWh": 2.5,
+    "typicalHoursPerDay": 24,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "~900 kWh/yr (ENERGY STAR: 2000 model 810, 1990 model 1,180 kWh/yr); compressor cycles",
+    "sources": [
+      "https://www.energystar.gov/sites/default/files/asset/document/Appliance_and_Recycling_Quick_Start_Guide.pdf",
+      "https://powerequipment.honda.com/generators/generator-how-much-power",
+      "https://www.championpowerequipment.com/generator-wattage-chart/",
+      "https://www.championpowerequipment.com/wp-content/uploads/2021/03/Generators-WattageChartFlyer-web.pdf"
+    ]
+  },
+  {
+    "slug": "mini-fridge",
+    "name": "Mini fridge (compact, 1.7–4.5 cu ft)",
+    "category": "kitchen",
+    "runningW": 75,
+    "runningWMin": 50,
+    "runningWMax": 100,
+    "startingW": 500,
+    "cycling": true,
+    "avgW": 29,
+    "dailyKWh": 0.7,
+    "typicalHoursPerDay": 24,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "~250 kWh/yr (ENERGY STAR compact median 246; middle 80% 206–329); compressor cycles",
+    "sources": [
+      "https://data.energystar.gov/resource/p5st-her9.json",
+      "https://www.championpowerequipment.com/generator-wattage-chart/"
+    ]
+  },
+  {
+    "slug": "chest-freezer",
+    "name": "Chest freezer (7–15 cu ft)",
+    "category": "kitchen",
+    "runningW": 100,
+    "runningWMin": 100,
+    "runningWMax": 200,
+    "startingW": 800,
+    "cycling": true,
+    "avgW": 29,
+    "dailyKWh": 0.7,
+    "typicalHoursPerDay": 24,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "~255 kWh/yr (ENERGY STAR chest models: 201–218 at 9–10.6 cu ft, 277 at 15.7 cu ft); compressor cycles",
+    "sources": [
+      "https://data.energystar.gov/resource/8t9c-g3tn.json",
+      "https://www.championpowerequipment.com/generator-wattage-chart/",
+      "https://powerequipment.honda.com/generators/generator-wattage-estimation-guide"
+    ]
+  },
+  {
+    "slug": "upright-freezer",
+    "name": "Upright freezer (frost-free, 13–20 cu ft)",
+    "category": "kitchen",
+    "runningW": 150,
+    "runningWMin": 100,
+    "runningWMax": 200,
+    "startingW": 1000,
+    "cycling": true,
+    "avgW": 50,
+    "dailyKWh": 1.2,
+    "typicalHoursPerDay": 24,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "~438 kWh/yr (ENERGY STAR upright-freezer median); compressor cycles",
+    "sources": [
+      "https://data.energystar.gov/resource/8t9c-g3tn.json",
+      "https://www.championpowerequipment.com/generator-wattage-chart/",
+      "https://powerequipment.honda.com/generators/generator-wattage-estimation-guide"
+    ]
+  },
+  {
+    "slug": "microwave",
+    "name": "Microwave (1,000 W cooking power)",
+    "category": "kitchen",
+    "runningW": 1500,
+    "runningWMin": 1300,
+    "runningWMax": 1500,
+    "startingW": 1500,
+    "cycling": false,
+    "avgW": 1500,
+    "dailyKWh": 0.38,
+    "typicalHoursPerDay": 0.25,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "Draws ~1.5x its cooking power from the outlet; 15 min/day of use",
+    "sources": [
+      "https://powerequipment.honda.com/generators/generator-wattage-estimation-guide",
+      "https://dam.generac.com/ImConvServlet/imconv/b807fd2cc096c5464d1d28bc6f16d391f505a6b5/original",
+      "https://www.waterrights.utah.gov/sustainability/Appliances.pdf"
+    ]
+  },
+  {
+    "slug": "coffee-maker",
+    "name": "Drip coffee maker (10–12 cup)",
+    "category": "kitchen",
+    "runningW": 1000,
+    "runningWMin": 600,
+    "runningWMax": 1200,
+    "startingW": 1000,
+    "cycling": false,
+    "avgW": 1000,
+    "dailyKWh": 0.25,
+    "typicalHoursPerDay": 0.25,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "Brewing one full pot (~15 min at full power); warming-plate time not included",
+    "sources": [
+      "https://www.waterrights.utah.gov/sustainability/Appliances.pdf",
+      "https://powerequipment.honda.com/generators/generator-wattage-estimation-guide",
+      "https://dam.generac.com/ImConvServlet/imconv/b807fd2cc096c5464d1d28bc6f16d391f505a6b5/original"
+    ]
+  },
+  {
+    "slug": "electric-kettle",
+    "name": "Electric kettle (1.7 L)",
+    "category": "kitchen",
+    "runningW": 1500,
+    "runningWMin": 1200,
+    "runningWMax": 1500,
+    "startingW": 1500,
+    "cycling": false,
+    "avgW": 1500,
+    "dailyKWh": 0.3,
+    "typicalHoursPerDay": 0.2,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "About 12 min/day at full power (1–2 full boils)",
+    "sources": [
+      "https://www.cuisinart.com/perfectemp-cordless-electric-kettle/CPK-17P1.html",
+      "https://www.cuisinart.com/digital-gooseneck-kettle/GK-1.html"
+    ]
+  },
+  {
+    "slug": "toaster",
+    "name": "Toaster (2–4 slice)",
+    "category": "kitchen",
+    "runningW": 1000,
+    "runningWMin": 800,
+    "runningWMax": 1400,
+    "startingW": 1000,
+    "cycling": false,
+    "avgW": 1000,
+    "dailyKWh": 0.1,
+    "typicalHoursPerDay": 0.1,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "About 6 min/day (2–3 toasting cycles)",
+    "sources": [
+      "https://www.waterrights.utah.gov/sustainability/Appliances.pdf",
+      "https://www.championpowerequipment.com/wp-content/uploads/2021/03/Generators-WattageChartFlyer-web.pdf",
+      "https://dam.generac.com/ImConvServlet/imconv/b807fd2cc096c5464d1d28bc6f16d391f505a6b5/original"
+    ]
+  },
+  {
+    "slug": "induction-burner",
+    "name": "Induction burner (single, portable)",
+    "category": "kitchen",
+    "runningW": 1500,
+    "runningWMin": 1200,
+    "runningWMax": 1800,
+    "startingW": 1500,
+    "cycling": false,
+    "avgW": 1500,
+    "dailyKWh": 1.5,
+    "typicalHoursPerDay": 1,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "Medium-high setting, 1 h/day of cooking; the max setting draws up to 1,800 W",
+    "sources": [
+      "https://www.championpowerequipment.com/generator-wattage-chart/",
+      "https://hamiltonbeach.com/frequently-asked-questions"
+    ]
+  },
+  {
+    "slug": "slow-cooker",
+    "name": "Slow cooker (6 qt)",
+    "category": "kitchen",
+    "runningW": 200,
+    "runningWMin": 170,
+    "runningWMax": 270,
+    "startingW": 200,
+    "cycling": false,
+    "avgW": 200,
+    "dailyKWh": 1.6,
+    "typicalHoursPerDay": 8,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "One 8 h cook; Low is near the bottom of the range, High near the top",
+    "sources": [
+      "https://powerequipment.honda.com/generators/generator-wattage-estimation-guide",
+      "https://dam.generac.com/ImConvServlet/imconv/b807fd2cc096c5464d1d28bc6f16d391f505a6b5/original"
+    ]
+  },
+  {
+    "slug": "pressure-cooker",
+    "name": "Electric pressure cooker (6 qt, Instant Pot type)",
+    "category": "kitchen",
+    "runningW": 1000,
+    "runningWMin": 700,
+    "runningWMax": 1200,
+    "startingW": 1000,
+    "cycling": true,
+    "avgW": 400,
+    "dailyKWh": 0.4,
+    "typicalHoursPerDay": 1,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "Full power until pressurized, then heater cycles; ~40% average over a 1 h cook (3 qt 700 W, 8 qt 1,200 W)",
+    "sources": [
+      "https://instantpot.com/collections/ip-6qt/products/instant-pot-duo-6qt-multi-use-pressure-cooker",
+      "https://instantpot.com/collections/multi-cookers/products/instant-pot-duo-mini-3qt-multi-use-pressure-cooker",
+      "https://instantpot.com/collections/multi-cookers/products/instant-pot-duo-plus-8qt-multi-use-pressure-cooker-whisper-quiet"
+    ]
+  },
+  {
+    "slug": "blender",
+    "name": "Blender (countertop)",
+    "category": "kitchen",
+    "runningW": 400,
+    "runningWMin": 300,
+    "runningWMax": 1000,
+    "startingW": 850,
+    "cycling": false,
+    "avgW": 400,
+    "dailyKWh": 0.02,
+    "typicalHoursPerDay": 0.05,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "Ordinary 350–450 W blender, 3 min/day; high-power blenders reach ~1,000 W",
+    "sources": [
+      "https://powerequipment.honda.com/generators/generator-wattage-estimation-guide",
+      "https://www.championpowerequipment.com/generator-wattage-chart/",
+      "https://dam.generac.com/ImConvServlet/imconv/b807fd2cc096c5464d1d28bc6f16d391f505a6b5/original",
+      "https://hamiltonbeach.com/frequently-asked-questions"
+    ]
+  },
+  {
+    "slug": "rice-cooker",
+    "name": "Rice cooker (5.5–6 cup)",
+    "category": "kitchen",
+    "runningW": 600,
+    "runningWMin": 300,
+    "runningWMax": 1000,
+    "startingW": 600,
+    "cycling": false,
+    "avgW": 600,
+    "dailyKWh": 0.3,
+    "typicalHoursPerDay": 0.5,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "~30 min at full heat per batch (conservative); keep-warm not included. 3-cup 300 W, 10-cup up to 1,000 W",
+    "sources": [
+      "https://www.zojirushi.com/app/product/nszcc",
+      "https://www.zojirushi.com/app/product/nhs"
+    ]
+  },
+  {
+    "slug": "box-fan",
+    "name": "Box fan (20-inch)",
+    "category": "comfort",
+    "runningW": 75,
+    "runningWMin": 50,
+    "runningWMax": 90,
+    "startingW": 150,
+    "cycling": false,
+    "avgW": 75,
+    "dailyKWh": 0.6,
+    "typicalHoursPerDay": 8,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "Medium-high speed for 8 h",
+    "sources": [
+      "https://lasko.com/products/lasko-pro-power-20-box-fan-3-speed-weather-resistant-motor",
+      "https://www.championpowerequipment.com/generator-wattage-chart/",
+      "https://powerequipment.honda.com/generators/generator-wattage-estimation-guide"
+    ]
+  },
+  {
+    "slug": "ceiling-fan",
+    "name": "Ceiling fan (no light kit)",
+    "category": "comfort",
+    "runningW": 35,
+    "runningWMin": 15,
+    "runningWMax": 75,
+    "startingW": 35,
+    "cycling": false,
+    "avgW": 35,
+    "dailyKWh": 0.28,
+    "typicalHoursPerDay": 8,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "High speed for 8 h; ENERGY STAR 52-in. fans median ~26 W, older fans up to ~75 W",
+    "sources": [
+      "https://data.energystar.gov/resource/2te3-nmxp.json",
+      "https://www.championpowerequipment.com/generator-wattage-chart/",
+      "https://www.waterrights.utah.gov/sustainability/Appliances.pdf"
+    ]
+  },
+  {
+    "slug": "window-ac-5000",
+    "name": "Window AC (5,000 BTU)",
+    "category": "comfort",
+    "runningW": 450,
+    "runningWMin": 350,
+    "runningWMax": 600,
+    "startingW": 1100,
+    "cycling": true,
+    "avgW": 225,
+    "dailyKWh": 1.8,
+    "typicalHoursPerDay": 8,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "~50% compressor duty on a hot day, 8 h/day (e.g., overnight); inverter ENERGY STAR units draw ~350 W",
+    "sources": [
+      "https://data.energystar.gov/resource/5xn2-dv4h.json",
+      "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-C/section-430.32",
+      "https://www.championpowerequipment.com/generator-wattage-chart/"
+    ]
+  },
+  {
+    "slug": "window-ac-8000",
+    "name": "Window AC (8,000 BTU)",
+    "category": "comfort",
+    "runningW": 700,
+    "runningWMin": 530,
+    "runningWMax": 735,
+    "startingW": 1500,
+    "cycling": true,
+    "avgW": 350,
+    "dailyKWh": 2.8,
+    "typicalHoursPerDay": 8,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "~50% compressor duty on a hot day, 8 h/day; 8,000 BTU/h ÷ CEER 10.9–15 gives 530–735 W",
+    "sources": [
+      "https://data.energystar.gov/resource/5xn2-dv4h.json",
+      "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-C/section-430.32",
+      "https://www.championpowerequipment.com/generator-wattage-chart/",
+      "https://powerequipment.honda.com/generators/generator-wattage-estimation-guide"
+    ]
+  },
+  {
+    "slug": "space-heater",
+    "name": "Space heater (portable, 1,500 W)",
+    "category": "comfort",
+    "runningW": 1500,
+    "runningWMin": 750,
+    "runningWMax": 1500,
+    "startingW": 1500,
+    "cycling": true,
+    "avgW": 750,
+    "dailyKWh": 6,
+    "typicalHoursPerDay": 8,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "High setting; thermostat assumed to run it ~50% of the time; 8 h/day",
+    "sources": [
+      "https://www.waterrights.utah.gov/sustainability/Appliances.pdf",
+      "https://www.championpowerequipment.com/generator-wattage-chart/"
+    ]
+  },
+  {
+    "slug": "electric-blanket",
+    "name": "Electric blanket (full/queen)",
+    "category": "comfort",
+    "runningW": 100,
+    "runningWMin": 60,
+    "runningWMax": 100,
+    "startingW": 100,
+    "cycling": true,
+    "avgW": 50,
+    "dailyKWh": 0.4,
+    "typicalHoursPerDay": 8,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "Controller assumed ~50% duty at a medium setting; 8 h night. Single-size blankets ~60 W",
+    "sources": [
+      "https://www.waterrights.utah.gov/sustainability/Appliances.pdf"
+    ]
+  },
+  {
+    "slug": "dehumidifier",
+    "name": "Dehumidifier (50-pint)",
+    "category": "comfort",
+    "runningW": 490,
+    "runningWMin": 340,
+    "runningWMax": 785,
+    "startingW": 1000,
+    "cycling": true,
+    "avgW": 245,
+    "dailyKWh": 5.88,
+    "typicalHoursPerDay": 24,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "Running W from ENERGY STAR capacity/IEF; humidistat assumed ~50% duty in a damp space",
+    "sources": [
+      "https://data.energystar.gov/resource/mgiu-hu4z.json",
+      "https://www.waterrights.utah.gov/sustainability/Appliances.pdf",
+      "https://dam.generac.com/ImConvServlet/imconv/b807fd2cc096c5464d1d28bc6f16d391f505a6b5/original"
+    ]
+  },
+  {
+    "slug": "furnace-blower",
+    "name": "Gas furnace blower fan",
+    "category": "comfort",
+    "runningW": 600,
+    "runningWMin": 300,
+    "runningWMax": 875,
+    "startingW": 1400,
+    "cycling": true,
+    "avgW": 300,
+    "dailyKWh": 7.2,
+    "typicalHoursPerDay": 24,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "~50% run time in cold weather. Hardwired: needs a transfer switch or inlet to connect",
+    "sources": [
+      "https://powerequipment.honda.com/generators/generator-wattage-estimation-guide",
+      "https://www.championpowerequipment.com/generator-wattage-chart/",
+      "https://www.waterrights.utah.gov/sustainability/Appliances.pdf"
+    ]
+  },
+  {
+    "slug": "cpap",
+    "name": "CPAP (no humidifier)",
+    "category": "essentials",
+    "runningW": 30,
+    "runningWMin": 30,
+    "runningWMax": 60,
+    "startingW": 30,
+    "cycling": false,
+    "avgW": 30,
+    "dailyKWh": 0.24,
+    "typicalHoursPerDay": 8,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "8 h night without humidifier or heated tube; many newer machines draw less",
+    "sources": [
+      "https://www.championpowerequipment.com/generator-wattage-chart/",
+      "https://www.resmed.com/en-us/products/cpap/machines/airsense-11/"
+    ]
+  },
+  {
+    "slug": "cpap-humidifier",
+    "name": "CPAP with heated humidifier",
+    "category": "essentials",
+    "runningW": 60,
+    "runningWMin": 60,
+    "runningWMax": 90,
+    "startingW": 60,
+    "cycling": false,
+    "avgW": 60,
+    "dailyKWh": 0.48,
+    "typicalHoursPerDay": 8,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "8 h night with heated humidifier; ResMed power supplies are 65 W (AirSense 11) and 90 W (AirSense 10)",
+    "sources": [
+      "https://www.championpowerequipment.com/generator-wattage-chart/",
+      "https://www.resmed.com/en-us/products/cpap/machines/airsense-11/",
+      "https://www.resmed.com/en-us/products/cpap/machines/airsense-10/"
+    ]
+  },
+  {
+    "slug": "portable-oxygen-concentrator",
+    "name": "Portable oxygen concentrator (on AC)",
+    "category": "essentials",
+    "runningW": 100,
+    "runningWMin": 40,
+    "runningWMax": 150,
+    "startingW": 150,
+    "cycling": false,
+    "avgW": 100,
+    "dailyKWh": 2.4,
+    "typicalHoursPerDay": 24,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "Running and charging from its AC adapter; WHO puts portable units at 40–130 W, and Inogen One G5 / Philips SimplyGo adapters top out at about 120–150 W",
+    "sources": [
+      "https://iris.who.int/server/api/core/bitstreams/6a4ae877-d02b-4db5-80d2-751090650f69/content",
+      "https://www.inogen.com/pdf/96-09302-00-01%20revA%20Technical%20Manual%20Inogen%20One%20G5.pdf",
+      "https://www.documents.philips.com/doclib/enc/11407841/SimplyGo_User_Manual.pdf"
+    ]
+  },
+  {
+    "slug": "oxygen-concentrator",
+    "name": "Oxygen concentrator (home, 5 L/min)",
+    "category": "essentials",
+    "runningW": 310,
+    "runningWMin": 275,
+    "runningWMax": 400,
+    "startingW": 1200,
+    "cycling": false,
+    "avgW": 310,
+    "dailyKWh": 7.44,
+    "typicalHoursPerDay": 24,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "Runs nonstop; 5 L/min home units are rated 275–400 W. Startup set at 1,200 W (3× the highest 5 L/min draw), per WHO’s 2–3× guidance, since makers don’t publish it",
+    "sources": [
+      "https://iris.who.int/server/api/core/bitstreams/6a4ae877-d02b-4db5-80d2-751090650f69/content",
+      "https://www.apria.com/hubfs/User%20Manual/525DS-User-Manual-10-2019.pdf",
+      "https://www.documents.philips.com/doclib/enc/9801469/EverFlo_brochure.pdf",
+      "https://files.caireinc.com/Manuals/MN238.pdf"
+    ]
+  },
+  {
+    "slug": "router-modem",
+    "name": "Wi-Fi router + modem",
+    "category": "essentials",
+    "runningW": 15,
+    "runningWMin": 10,
+    "runningWMax": 20,
+    "startingW": 15,
+    "cycling": false,
+    "avgW": 15,
+    "dailyKWh": 0.36,
+    "typicalHoursPerDay": 24,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "Modem plus Wi-Fi router left on 24 h",
+    "sources": [
+      "https://www.championpowerequipment.com/generator-wattage-chart/"
+    ]
+  },
+  {
+    "slug": "phone-charging",
+    "name": "Phone charging (USB)",
+    "category": "essentials",
+    "runningW": 10,
+    "runningWMin": 10,
+    "runningWMax": 20,
+    "startingW": 10,
+    "cycling": false,
+    "avgW": 10,
+    "dailyKWh": 0.02,
+    "typicalHoursPerDay": 2,
+    "dc": true,
+    "voltage": 120,
+    "usageNote": "About one full smartphone charge per day (~2 h at ~10 W)",
+    "sources": [
+      "https://dam.generac.com/ImConvServlet/imconv/b807fd2cc096c5464d1d28bc6f16d391f505a6b5/original",
+      "https://www.championpowerequipment.com/generator-wattage-chart/"
+    ]
+  },
+  {
+    "slug": "laptop",
+    "name": "Laptop",
+    "category": "essentials",
+    "runningW": 50,
+    "runningWMin": 20,
+    "runningWMax": 100,
+    "startingW": 50,
+    "cycling": false,
+    "avgW": 50,
+    "dailyKWh": 0.3,
+    "typicalHoursPerDay": 6,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "Typical use for 6 h/day via its AC adapter",
+    "sources": [
+      "https://www.waterrights.utah.gov/sustainability/Appliances.pdf",
+      "https://www.championpowerequipment.com/generator-wattage-chart/",
+      "https://dam.generac.com/ImConvServlet/imconv/b807fd2cc096c5464d1d28bc6f16d391f505a6b5/original"
+    ]
+  },
+  {
+    "slug": "led-bulb",
+    "name": "LED light bulb (60 W equivalent)",
+    "category": "essentials",
+    "runningW": 9,
+    "runningWMin": 8,
+    "runningWMax": 15,
+    "startingW": 9,
+    "cycling": false,
+    "avgW": 9,
+    "dailyKWh": 0.05,
+    "typicalHoursPerDay": 6,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "One 800-lumen LED bulb for 6 h/day",
+    "sources": [
+      "https://www.championpowerequipment.com/generator-wattage-chart/",
+      "https://www.energy.gov/energysaver/led-lighting"
+    ]
+  },
+  {
+    "slug": "starlink-standard",
+    "name": "Starlink Standard",
+    "category": "essentials",
+    "runningW": 90,
+    "runningWMin": 75,
+    "runningWMax": 100,
+    "startingW": 90,
+    "cycling": false,
+    "avgW": 90,
+    "dailyKWh": 2.16,
+    "typicalHoursPerDay": 24,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "Starlink spec: 75–100 W average; on 24 h",
+    "sources": [
+      "https://www.starlink.com/public-files/specification_sheet_standard.pdf"
+    ]
+  },
+  {
+    "slug": "starlink-mini",
+    "name": "Starlink Mini",
+    "category": "essentials",
+    "runningW": 35,
+    "runningWMin": 25,
+    "runningWMax": 40,
+    "startingW": 35,
+    "cycling": false,
+    "avgW": 35,
+    "dailyKWh": 0.84,
+    "typicalHoursPerDay": 24,
+    "dc": true,
+    "voltage": 120,
+    "usageNote": "Starlink spec: 25–40 W average; runs on 12–48 V DC or 100 W USB-C PD; on 24 h",
+    "sources": [
+      "https://www.starlink.com/public-files/specification_sheet_mini.pdf"
+    ]
+  },
+  {
+    "slug": "sump-pump-third-hp",
+    "name": "Sump pump (1/3 HP)",
+    "category": "water",
+    "runningW": 800,
+    "runningWMin": 500,
+    "runningWMax": 800,
+    "startingW": 1300,
+    "cycling": true,
+    "avgW": 160,
+    "dailyKWh": 3.84,
+    "typicalHoursPerDay": 24,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "Float switch cycles; assumes ~20% run time (12 min/hr) in wet weather; varies widely with inflow",
+    "sources": [
+      "https://powerequipment.honda.com/generators/generator-wattage-estimation-guide",
+      "https://www.championpowerequipment.com/generator-wattage-chart/"
+    ]
+  },
+  {
+    "slug": "sump-pump-half-hp",
+    "name": "Sump pump (1/2 HP)",
+    "category": "water",
+    "runningW": 1050,
+    "runningWMin": 800,
+    "runningWMax": 1050,
+    "startingW": 2150,
+    "cycling": true,
+    "avgW": 210,
+    "dailyKWh": 5.04,
+    "typicalHoursPerDay": 24,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "Float switch cycles; assumes ~20% run time (12 min/hr) in wet weather; varies widely with inflow",
+    "sources": [
+      "https://powerequipment.honda.com/generators/generator-wattage-estimation-guide",
+      "https://www.championpowerequipment.com/generator-wattage-chart/"
+    ]
+  },
+  {
+    "slug": "well-pump-half-hp",
+    "name": "Well pump (1/2 HP submersible)",
+    "category": "water",
+    "runningW": 800,
+    "runningWMin": 670,
+    "runningWMax": 1000,
+    "startingW": 5300,
+    "cycling": true,
+    "avgW": 33,
+    "dailyKWh": 0.79,
+    "typicalHoursPerDay": 24,
+    "dc": false,
+    "voltage": 240,
+    "usageNote": "~1 h of pumping/day on pressure switch. Starting figure is Franklin's locked-rotor current for a 3-wire 230 V motor (23 A); 2-wire motors need more. Most 1/2 HP submersibles are 240 V; 120 V models exist",
+    "sources": [
+      "https://www.webtrol.com/assets/franklin-aim-manual.pdf",
+      "https://www.championpowerequipment.com/generator-wattage-chart/"
+    ]
+  },
+  {
+    "slug": "tv-55",
+    "name": "TV (55-inch LED)",
+    "category": "entertainment",
+    "runningW": 100,
+    "runningWMin": 75,
+    "runningWMax": 120,
+    "startingW": 100,
+    "cycling": false,
+    "avgW": 100,
+    "dailyKWh": 0.4,
+    "typicalHoursPerDay": 4,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "Default picture settings, 4 h/day; ENERGY STAR 55-in. models measure 77–114 W",
+    "sources": [
+      "https://data.energystar.gov/resource/pd96-rr3d.json",
+      "https://dam.generac.com/ImConvServlet/imconv/b807fd2cc096c5464d1d28bc6f16d391f505a6b5/original"
+    ]
+  },
+  {
+    "slug": "desktop-pc",
+    "name": "Desktop PC + monitor",
+    "category": "entertainment",
+    "runningW": 150,
+    "runningWMin": 100,
+    "runningWMax": 400,
+    "startingW": 150,
+    "cycling": false,
+    "avgW": 150,
+    "dailyKWh": 0.9,
+    "typicalHoursPerDay": 6,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "Home/office PC (~120 W) plus LCD monitor (~30 W), 6 h/day; gaming PCs can reach 400 W",
+    "sources": [
+      "https://www.waterrights.utah.gov/sustainability/Appliances.pdf",
+      "https://powerequipment.honda.com/generators/generator-wattage-estimation-guide",
+      "https://www.championpowerequipment.com/wp-content/uploads/2021/03/Generators-WattageChartFlyer-web.pdf",
+      "https://dam.generac.com/ImConvServlet/imconv/b807fd2cc096c5464d1d28bc6f16d391f505a6b5/original"
+    ]
+  },
+  {
+    "slug": "game-console",
+    "name": "Game console (PS5 / Xbox Series X class)",
+    "category": "entertainment",
+    "runningW": 200,
+    "runningWMin": 90,
+    "runningWMax": 220,
+    "startingW": 200,
+    "cycling": false,
+    "avgW": 200,
+    "dailyKWh": 0.6,
+    "typicalHoursPerDay": 3,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "Gameplay, 3 h/day; Sony measures ~215 W for PS5 games, ~90–115 W for PS4 games",
+    "sources": [
+      "https://www.playstation.com/en-gb/legal/ecodesign/"
+    ]
+  },
+  {
+    "slug": "projector",
+    "name": "Projector (home/portable)",
+    "category": "entertainment",
+    "runningW": 200,
+    "runningWMin": 100,
+    "runningWMax": 300,
+    "startingW": 200,
+    "cycling": false,
+    "avgW": 200,
+    "dailyKWh": 0.6,
+    "typicalHoursPerDay": 3,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "3 h/day (a movie or two); lamp-based home projectors sit at the high end",
+    "sources": [
+      "https://www.championpowerequipment.com/generator-wattage-chart/"
+    ]
+  },
+  {
+    "slug": "washing-machine",
+    "name": "Washing machine",
+    "category": "essentials",
+    "runningW": 500,
+    "runningWMin": 350,
+    "runningWMax": 1000,
+    "startingW": 1200,
+    "cycling": false,
+    "avgW": 500,
+    "dailyKWh": 0.5,
+    "typicalHoursPerDay": 1,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "One ~1 h cold-water load; draw varies by cycle phase; water heating not included",
+    "sources": [
+      "https://www.waterrights.utah.gov/sustainability/Appliances.pdf",
+      "https://www.championpowerequipment.com/generator-wattage-chart/",
+      "https://powerequipment.honda.com/generators/generator-wattage-estimation-guide"
+    ]
+  },
+  {
+    "slug": "garage-door-opener",
+    "name": "Garage door opener",
+    "category": "essentials",
+    "runningW": 720,
+    "runningWMin": 450,
+    "runningWMax": 720,
+    "startingW": 1420,
+    "cycling": false,
+    "avgW": 720,
+    "dailyKWh": 0.04,
+    "typicalHoursPerDay": 0.05,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "~12 open/close runs of ~15 s each per day; standby draw not included",
+    "sources": [
+      "https://powerequipment.honda.com/generators/generator-wattage-estimation-guide"
+    ]
+  },
+  {
+    "slug": "circular-saw",
+    "name": "Circular saw (7-1/4 in.)",
+    "category": "tools",
+    "runningW": 1400,
+    "runningWMin": 1200,
+    "runningWMax": 1800,
+    "startingW": 2300,
+    "cycling": false,
+    "avgW": 1400,
+    "dailyKWh": 0.7,
+    "typicalHoursPerDay": 0.5,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "30 min of cutting per day",
+    "sources": [
+      "https://powerequipment.honda.com/generators/generator-wattage-estimation-guide",
+      "https://www.championpowerequipment.com/generator-wattage-chart/",
+      "https://dam.generac.com/ImConvServlet/imconv/b807fd2cc096c5464d1d28bc6f16d391f505a6b5/original"
+    ]
+  },
+  {
+    "slug": "tool-battery-charger",
+    "name": "Cordless tool battery charger",
+    "category": "tools",
+    "runningW": 100,
+    "runningWMin": 25,
+    "runningWMax": 360,
+    "startingW": 100,
+    "cycling": false,
+    "avgW": 100,
+    "dailyKWh": 0.2,
+    "typicalHoursPerDay": 2,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "Standard 18/20 V charger, ~2 h/day (about two 5 Ah packs)",
+    "sources": [
+      "https://www.championpowerequipment.com/generator-wattage-chart/",
+      "https://dam.generac.com/ImConvServlet/imconv/b807fd2cc096c5464d1d28bc6f16d391f505a6b5/original"
+    ]
+  },
+  {
+    "slug": "pellet-grill",
+    "name": "Pellet grill",
+    "category": "outdoor",
+    "runningW": 50,
+    "runningWMin": 10,
+    "runningWMax": 96,
+    "startingW": 300,
+    "cycling": false,
+    "avgW": 50,
+    "dailyKWh": 0.2,
+    "typicalHoursPerDay": 4,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "~300 W igniter phase at startup (535 W on some models), then ~50 W for auger/fan/controller; 4 h cook",
+    "sources": [
+      "https://support.traeger.com/hc/en-us/articles/4407219875611-Grill-Watt-Amp-Usage"
+    ]
+  },
+  {
+    "slug": "ebike-charger",
+    "name": "E-bike charger (48 V, 2 A)",
+    "category": "outdoor",
+    "runningW": 120,
+    "runningWMin": 100,
+    "runningWMax": 130,
+    "startingW": 120,
+    "cycling": false,
+    "avgW": 120,
+    "dailyKWh": 0.72,
+    "typicalHoursPerDay": 6,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "~6 h refills a ~624 Wh battery, including charger losses",
+    "sources": [
+      "https://www.radpowerbikes.com/collections/electric-bikes/products/radrunner-plus-electric-cargo-utility-bike"
+    ]
+  },
+  {
+    "slug": "aquarium-heater",
+    "name": "Aquarium heater (100 W)",
+    "category": "essentials",
+    "runningW": 100,
+    "runningWMin": 100,
+    "runningWMax": 100,
+    "startingW": 100,
+    "cycling": true,
+    "avgW": 50,
+    "dailyKWh": 1.2,
+    "typicalHoursPerDay": 24,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "Thermostat assumed ~50% duty; runs more in a cold room",
+    "sources": [
+      "https://www.waterrights.utah.gov/sustainability/Appliances.pdf"
+    ]
+  },
+  {
+    "slug": "car-fridge-12v",
+    "name": "12 V compressor car fridge (DC)",
+    "category": "outdoor",
+    "runningW": 45,
+    "runningWMin": 28,
+    "runningWMax": 60,
+    "startingW": 60,
+    "cycling": true,
+    "avgW": 18,
+    "dailyKWh": 0.43,
+    "typicalHoursPerDay": 24,
+    "dc": true,
+    "voltage": 120,
+    "usageNote": "Runs on 12 V DC; ~1.5 A average (Engel cites ~1–2 A typical); on 24 h",
+    "sources": [
+      "https://engelcoolers.com/products/45-platinum-portable-car-fridge",
+      "https://www.dometic.com/en-us/product/cfx5-45-electric-cooler-97000050755",
+      "https://www.championpowerequipment.com/wp-content/uploads/2021/03/Generators-WattageChartFlyer-web.pdf"
+    ]
+  },
+  {
+    "slug": "ev-level-1",
+    "name": "EV Level 1 charging (120 V, 12 A)",
+    "category": "outdoor",
+    "runningW": 1440,
+    "runningWMin": 1440,
+    "runningWMax": 1900,
+    "startingW": 1440,
+    "cycling": false,
+    "avgW": 1440,
+    "dailyKWh": 5.76,
+    "typicalHoursPerDay": 4,
+    "dc": false,
+    "voltage": 120,
+    "usageNote": "12 A continuous at 120 V; ~5 mi of range per hour (AFDC), so 4 h/day adds ~20 mi",
+    "sources": [
+      "https://afdc.energy.gov/fuels/electricity-stations"
+    ]
+  }
+]
